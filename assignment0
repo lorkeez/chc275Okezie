@@ -1,0 +1,7 @@
+x = input("Enter number")
+y = input("Enter number")
+x = int(x)
+y = int(y)
+sum = x * y
+z = sum
+print(f"The product of {x} and {y} is {z}")
