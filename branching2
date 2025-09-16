@@ -1,0 +1,16 @@
+print("Welcome to the lunch loan program")
+print("Enter your grade level")
+print("1. freshman")
+print("2. sophmore")
+print("3. junior")
+print("4. senior")
+option = input("Enter your grade level")
+if option == "freshman":
+    print("you get 5 dollars")
+if option == "sophmore":
+    print("you get 7 dollars")
+if option == "junior":
+    print("you get 9 dollars")
+if option == "senior":
+    print("you get 11 dollars")
+    
