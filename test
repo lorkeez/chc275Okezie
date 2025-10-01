@@ -1,2 +1,10 @@
+print("Welcome to FFCU! How can I help you today?")
+print("Deposit or Withdraw")
+print("Transfer Money")
+print("List Accounts and Balances")
+print("Add or Remove Accounts")
+option = input("")
+if(option == "Deposit or Withdraw"):
+    print()
 name = ["James","Jack","John","Paul"]
 balance = [102,90,70,150]
