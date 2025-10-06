@@ -2,11 +2,27 @@ name = ["James","Jack","John","Paul"]
 balance = [102,90,70,150]
 check = False
 while check == False:
-     for i in range(len(name)):
-         print(f"Name:{name[i]} balance :{balance[i]}")
-    print("Welcome to FFCU! How can I help you today?")
-    print("Deposit or Withdraw")
-    print("Transfer Money")
-    print("List Accounts and Balances")
-    print("Add or Remove Accounts")
-    option = input(" ")
+     print("Welcome to FFCU! How can I help you today?")
+     print("Deposit")
+     print("Withdraw")
+     print("Transfer Money")
+     print("List Accounts and Balances")
+     print("Add or Remove Accounts")
+     option = input(" ")
+     if option == "Deposit":
+          Account = input ("Enter Account name: ")
+          money = input ("How much money do you want to deposit")
+          money= int(money)
+          position = name.index(Account)
+          balance [position] = balance [position] + money
+     if option == "Withdraw":
+           Account = input ("Enter Account name: ")
+          money = input ("How much money do you want to deposit")
+          money= int(money)
+          position = name.index(Account)
+          balance [position] = balance [position] - money
+     if option == "Transfer Money":
+     if option == "List Accounts and Balance":
+           for i in range(len(name)):
+               print(f"Name:{name[i]} balance :{balance[i]}")
+     if option == "Add or Remmove accounts":
