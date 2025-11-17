@@ -39,7 +39,7 @@ print(NVDA1)
 
 
 
-file = open("days2.text", "r")
+file = open("days2.txt", "r")
 buffer = file.readlines()
 file.close()
 
