@@ -10,4 +10,4 @@ while check == False:
           print("4. transfer money")
           print("5. add account")
           print("6. remove account")
-          x = input("What a ")hjnn
+          x = input("What a ")
