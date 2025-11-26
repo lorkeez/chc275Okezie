@@ -97,3 +97,5 @@ buffer = [line0,line1,line2,line3]
 file = open("report.txt", "w")
 file.writelines(buffer)
 file.close()
+
+#Close your tabs bro
